@@ -1,3 +1,5 @@
+<img width="1315" height="313" alt="Credit_Risk_Analysis_Dashboard_2" src="https://github.com/user-attachments/assets/31a9f02b-02b1-4207-88ec-0e1664b2206f" />
+<img width="1321" height="560" alt="Credit_Risk_Analysis_Dashboard" src="https://github.com/user-attachments/assets/fcfd3375-f389-4d17-bb92-3d16c6e3ce3d" />
 <img width="1315" height="313" alt="Credit_Risk_Analysis_Dashboard_2" src="https://github.com/user-attachments/assets/0bfb9497-3212-4c70-a527-ef7e5827a797" />
 <img width="1321" height="560" alt="Credit_Risk_Analysis_Dashboard" src="https://github.com/user-attachments/assets/866aadc2-84d4-4cfe-8bb6-37038dddd377" />
 # 💳 Credit Risk & Prime Applicant Analysis Suite
