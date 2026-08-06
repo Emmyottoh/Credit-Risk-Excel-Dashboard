@@ -1,5 +1,10 @@
-# 💳 Credit Risk & Loan Default Analytics Engine
-<img width="1188" height="508" alt="Executive_Credit_Risk_Performance_Dashboard" src="https://github.com/user-attachments/assets/5b2098b3-a260-4487-bf53-7089259313b2" />
+# 💳 Power BI Executive Analytics Suite
+* **Focus:** Interactive drill-downs, cross-filtering, and dynamic risk tier modeling.
+<img width="1188" height="508" alt="Executive_Credit_Risk_Performance_Dashboard" src="https://github.com/user-attachments/assets/3750ed8a-ae22-44fa-9849-893d29e152e0" />
+
+Excel Exploratory Risk Dashboard
+* **Focus:** Data auditing, initial pivot analysis, and baseline default distribution modeling.
+* <img width="1321" height="560" alt="Credit_Risk_Analysis_Dashboard" src="https://github.com/user-attachments/assets/9a99f3ad-d798-46e9-8c18-3004e98455bc" />
 
 ## 📌 Project Overview
 Financial institutions and credit risk managers require granular visibility into portfolio risk profiles to minimize loan defaults and maintain capital adequacy. 
@@ -40,10 +45,12 @@ This project delivers an interactive credit risk analytics engine evaluating **5
 ---
 
 ## 🛠️ Tools & Technologies Used
-* **Power BI Desktop / Tableau Cloud:** Star Schema Modeling, DAX Calculations, Interactive Reporting
-* **Power Query / SQL:** Data Cleaning, ETL Pipeline, Feature Engineering
-* **Microsoft Excel:** Preliminary Data Auditing & Statistical Verification
+* **Power BI Desktop:** DAX Calculations, Interactive Reporting, & Risk Tier Slicing
+* **Microsoft Excel:** Advanced Pivot Tables, Baseline Modeling, & Data Auditing
+* **Power Query:** ETL Operations, Data Cleaning, & Column Standardization
 * **GitHub:** Portfolio Documentation & Version Control
 
 ---
 
+## 📊 Excel Risk Dashboard Preview
+<img width="1315" height="313" alt="Credit_Risk_Analysis_Dashboard_2" src="https://github.com/user-attachments/assets/5a2e3ab7-c6e8-45c8-9fc4-236bc5dd5652" />
