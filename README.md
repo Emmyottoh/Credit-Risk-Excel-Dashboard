@@ -2,7 +2,7 @@
 * **Focus:** Interactive drill-downs, cross-filtering, and dynamic risk tier modeling.
 <img width="1188" height="508" alt="Executive_Credit_Risk_Performance_Dashboard" src="https://github.com/user-attachments/assets/3750ed8a-ae22-44fa-9849-893d29e152e0" />
 
-Excel Exploratory Risk Dashboard
+# 📊 Excel Exploratory Risk Dashboard
 * **Focus:** Data auditing, initial pivot analysis, and baseline default distribution modeling.
 * <img width="1321" height="560" alt="Credit_Risk_Analysis_Dashboard" src="https://github.com/user-attachments/assets/9a99f3ad-d798-46e9-8c18-3004e98455bc" />
 
