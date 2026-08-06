@@ -1,34 +1,49 @@
-# 💳 Credit Risk & Prime Applicant Analysis Suite
+# 💳 Credit Risk & Loan Default Analytics Engine
+<img width="1188" height="508" alt="Executive_Credit_Risk_Performance_Dashboard" src="https://github.com/user-attachments/assets/5b2098b3-a260-4487-bf53-7089259313b2" />
 
-An executive-level data audit and risk modeling analysis conducted on **500 loan applicant records** to evaluate credit default probability, Debt-to-Income (DTI) burdens, credit score distribution, and demographic earning power.
+## 📌 Project Overview
+Financial institutions and credit risk managers require granular visibility into portfolio risk profiles to minimize loan defaults and maintain capital adequacy. 
 
-
-## 📌 Executive Summary
-Managing credit risk requires balancing approval rates with default exposure. This interactive Excel analytics suite consolidates applicant financial metrics, categorizes risk profiles across credit score tiers, and highlights high-risk borrower segments to inform lending criteria.
-
-
-## 📊 Core KPI Scorecard
-
-| Metric | Metric Value | Risk Context |
-| :--- | :--- | :--- |
-| Total Applicants | **500** | Full loan applicant sample evaluated |
-| Portfolio Default Rate | **8.4%** | Baseline portfolio risk benchmark |
-| Average Credit Score | **656** | Mid-tier credit profile baseline |
-| Average Applicant Income<img width="1315" height="313" alt="Credit_Risk_Analysis_Dashboard_2" src="https://github.com/user-attachments/assets/a445ff3b-5414-4972-b1ad-dfe5de8fc519" />
-<img width="1321" height="560" alt="Credit_Risk_Analysis_Dashboard" src="https://github.com/user-attachments/assets/7c858a44-bc12-4c13-a167-836d07e654ec" />
- | **$25,322.87** | Mean annual earning capacity across applicants |
+This project delivers an interactive credit risk analytics engine evaluating **500 applicant profiles**, analyzing credit score tiers, Debt-to-Income (DTI) ratios, income distributions, and employment demographics to identify key risk indicators and optimize underwriting thresholds.
 
 ---
 
-## 💡 Key Strategic Business Insights
-
-* **Credit Score Tier Risk concentration:** The **560–659** and **660–759** score tiers contain the highest concentration of defaults (15 and 14 defaults, respectively), demonstrating that mid-tier applicants drive the majority of risk volume.
-* **DTI Burden by Employment:** **Unemployed applicants** carry the highest Average Debt-to-Income burden (~22.5%), followed by **Self-Employed (~19%)** and **Part-Time (~18%)** individuals. Full-Time employed applicants maintain a healthier ~16% DTI.
-* **Demographic Earning Trends:** Career tenure and applicant volume peak around the **48–57 age group**, while average income remains relatively stable across education levels (ranging around $23,000–$27,000).
+## 🎯 Key Business Objectives
+* **Default Risk Assessment:** Identify high-risk borrower segments based on credit tier ratings, loan-to-value metrics, and default probability.
+* **Underwriting Threshold Analysis:** Evaluate Debt-to-Income (DTI) ratio distributions to pinpoint high-risk lending zones.
+* **Demographic & Employment Audit:** Analyze how income stability, employment tenure, and loan purpose correlate with repayment behaviors.
+* **Portfolio Risk Stratification:** Categorize loan applicants into distinct risk tiers (Prime, Subprime, High Risk) for tailored interest rate strategies.
 
 ---
 
-## 🛠️ Tools & Technologies
-* **Data Cleansing & Transformation:** Microsoft Excel (Logic validation, Categorical binning)
-* **Aggregation Engine:** Pivot Tables & Custom Dynamic Calculated Fields
-* **Dashboard Design:** Dark-themed Executive Interface with Interactive Slicers (Education & Income Filters)
+## 🧹 Data Pipeline & ETL Transformation
+* **Data Ingestion & Cleaning:** Standardized applicant demographic logs, imputed missing income values, and audited employment status fields.
+* **Risk Categorization:** Engineered custom risk bands combining credit score brackets and DTI threshold flags.
+* **Validation & Integrity:** Verified total balance calculations, interest rates, and loan status metrics across all 500 applicant profiles.
+
+---
+
+## 🛠️ Data Architecture & Modeling
+1. **Data Modeling:** Constructed a star schema linking borrower profiles, loan attributes, and default outcomes.
+2. **DAX Measures & Risk Metrics:**
+   * Developed custom formulas for **Default Rate (%)**, **Average DTI Ratio**, **Total Risk Exposure ($)**, **Prime vs. Non-Prime Loan Ratio**, and **Expected Loss Calculations**.
+3. **Interactive Visual Reporting:**
+   * Designed a dynamic dashboard featuring multi-parameter slicers (Credit Tier, Income Bracket, Loan Purpose) and distribution charts.
+
+---
+
+## 💡 Key Risk Insights
+* **DTI Warning Thresholds:** Applicants with DTI ratios exceeding 45% demonstrate a significantly higher rate of default, indicating a critical threshold for loan approval boundaries.
+* **Credit Tier Performance:** Subprime credit tiers account for a disproportionate volume of overall portfolio default losses despite lower initial loan amounts.
+* **Employment Tenure Correlation:** Borrowers with less than 2 years of current employment tenure display higher default vulnerability during macroeconomic shifts.
+
+---
+
+## 🛠️ Tools & Technologies Used
+* **Power BI Desktop / Tableau Cloud:** Star Schema Modeling, DAX Calculations, Interactive Reporting
+* **Power Query / SQL:** Data Cleaning, ETL Pipeline, Feature Engineering
+* **Microsoft Excel:** Preliminary Data Auditing & Statistical Verification
+* **GitHub:** Portfolio Documentation & Version Control
+
+---
+
