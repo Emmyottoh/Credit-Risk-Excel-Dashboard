@@ -36,7 +36,12 @@ The project analyzes 500 applicant records and presents key financial risk indic
 
 The dashboard provides a consolidated view of borrower risk characteristics, helping analysts identify potential default patterns, assess applicant profiles, and communicate credit risk indicators to decision-makers.
 
-## Project Author
+---
 
+## Download Interactive Excel Dashboard
+
+[Download Credit Risk Excel Dashboard](./Credit-Risk-Excel-Dashboard.xlsx)
+
+---
 **Emmanuel Ottoh**  
 Data Analyst | Microsoft Excel | Business Intelligence
